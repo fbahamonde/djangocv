@@ -30,7 +30,7 @@ def cvpdf(request):
     fs = FileSystemStorage()
     filename = 'cvlandingpage/static/pdf/cvfb.pdf'
     if fs.exists(filename):
-        with fs.open(filename) as pdf:
+        with fs.open(filename,'rb') as pdf:
             response = HttpResponse(pdf, content_type='application/pdf')
             response['Content-Disposition'] = 'inline; filename="pdf/cvfb.pdf"'
             return response
