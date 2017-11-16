@@ -1004,6 +1004,10 @@ ul.about {
     transition: all .3s ease-in;
 }
 
+#sociales{
+  margin: 0 auto;
+}
+
 #profile_social a:hover{
     background-color: #fff;
 }

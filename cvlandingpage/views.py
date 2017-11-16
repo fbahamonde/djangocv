@@ -32,5 +32,5 @@ def cvpdf(request):
     if fs.exists(filename):
         with fs.open(filename,'rb') as pdf:
             response = HttpResponse(pdf.read(), content_type='application/pdf')
-            response['Content-Disposition'] = 'attachment; filename="pdf/cvfb.pdf"'
+            response['Content-Disposition'] = 'inline; filename="pdf/cvfb.pdf"'
             return response

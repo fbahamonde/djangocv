@@ -79,10 +79,6 @@
 
 <body>
 
-  <!--[if lt IE 7]>
-  <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
-
   <!-- Laoding page -->
   <div id="preloader"><div id="spinner"></div></div>
 
@@ -149,11 +145,10 @@
                     <!-- Name -->
                     <div id="profile_social">
                       <h6>My Social Profiles</h6>
-                      <a href="#"><i class="fa fa-facebook"></i></a>
-                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <div id="sociales">
+                      <a href="facebook.com/felipe.bahamonde.m"><i class="fa fa-facebook"></i></a>
                       <a href="#"><i class="fa fa-linkedin"></i></a>
-                      <a href="#"><i class="fa fa fa-dribbble"></i></a>
-                      <a href="#"><i class="fa fa-foursquare"></i></a>
+                        </div>
                       <div class="clear"></div>
                     </div>
                     <!-- End Name -->
@@ -171,17 +166,17 @@
 
                     <ul class="resp-tabs-list">
                       <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a profile" data-tab-name="profile">
-                        <span class="tite-list">profile</span>
+                        <span class="tite-list">Perfil</span>
                         <i class="fa fa-user icon_menu icon_menu_active"></i>
                       </li>
 
                       <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume">
-                        <span class="tite-list">resume</span>
+                        <span class="tite-list">Resume</span>
                         <i class="fa fa-tasks icon_menu"></i>
                       </li>
 
                       <li class="tabs-portfolio hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="portfolio">
-                        <span class="tite-list">portfolio</span>
+                        <span class="tite-list">Portafolio</span>
                         <i class="fa fa-briefcase icon_menu"></i>
                       </li>
 
@@ -191,7 +186,7 @@
                       </li>
 
                       <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;">
-                        <span class="tite-list">contacto</span>
+                        <span class="tite-list">Contacto</span>
                         <i class="fa fa-envelope icon_menu"></i>
                       </li>
 
@@ -208,7 +203,7 @@
                       <!-- profile -->
                       <div id="profile" class="content_2">
                         <!-- .title -->
-                        <h1 class="h-bloc">Profile - About Me</h1>
+                        <h1 class="h-bloc">Profile - Acerca de mi</h1>
 
                         <div class="row top-p">
                           <div class="col-md-6 profile-l">
@@ -223,21 +218,21 @@
 
                               <li>
                                 <i class="glyphicon glyphicon-user"></i>
-                                <label>Name</label>
+                                <label>Nombre</label>
                                 <span class="value">Felipe Bahamonde</span>
                                 <div class="clear"></div>
                               </li>
 
                               <li>
                                 <i class="glyphicon glyphicon-calendar"></i>
-                                <label>Date of birth</label>
+                                <label>Nacimiento</label>
                                 <span class="value">Marzo 17, 2017</span>
                                 <div class="clear"></div>
                               </li>
 
                               <li>
                                 <i class="glyphicon glyphicon-map-marker"></i>
-                                <label>Adress</label>
+                                <label>Dirección</label>
                                 <span class="value">Santiago , Chile</span>
                                 <div class="clear"></div>
                               </li>
@@ -251,14 +246,14 @@
 
                               <li>
                                 <i class="glyphicon glyphicon-phone"></i>
-                                <label>Phone</label>
+                                <label>Celular</label>
                                 <span class="value">+569 82933488</span>
                                 <div class="clear"></div>
                               </li>
 
                               <li>
                                 <i class="glyphicon glyphicon-globe"></i>
-                                <label>Website</label>
+                                <label>Web</label>
                                 <span class="value"><a href="http://fbahamonde.pythonanywhere.com/" target="_blank">fbahamonde.pythonanywhere.com</a></span>
                                 <div class="clear"></div>
                               </li>
@@ -620,75 +615,8 @@
                             </div>
 
 
-                            <!-- .title_content -->
-                            <div class="title_content" style="float: none;">
-                              <div class="text_content">My Resume</div>
-                              <div class="clear"></div>
-                            </div>
-                            <!-- /.title_content -->
 
-                            <!-- .download_resume -->
-                            <a class="download" style="margin:0;float: left;" href="#">
-                              <span data-hover="Download My Resume"><i class="glyphicon glyphicon-download-alt"></i> Download My Resume</span>
-                            </a>
                             <!-- /.download_resume -->
-
-                          </div>
-                          <!-- /.resume-right -->
-
-
-
-                          <!-- .resume-left -->
-                          <div class="col-md-6 resume-left">
-                            <!-- .title_content -->
-                            <div class="title_content" style="margin-bottom:5px">
-                              <div class="text_content">Experience</div>
-                              <div class="clear"></div>
-                            </div>
-                            <!-- /.title_content -->
-
-                            <!-- .attributes -->
-                            <ul class="attributes">
-                              <li class="first">
-                                <h5>Web Developer <span class="duration"><i class="fa fa-calendar color"></i> 2011 - 2013</span></h5>
-                                <h6><span class="fa fa-briefcase"></span> Name of Company</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
-                              </li>
-                              <li>
-                                <h5>Front-End Developer <span class="duration"><i class="fa fa-calendar color"></i> 2010 - 2011</span></h5>
-                                <h6><span class="fa fa-briefcase"></span> Name of Company</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
-                              </li>
-
-                            </ul>
-                            <!-- /.attributes -->
-                            <br>
-
-                            <!-- .title_content -->
-                            <div class="title_content">
-                              <div class="text_content">Education</div>
-                              <div class="clear"></div>
-                            </div>
-                            <!-- /.title_content -->
-
-                            <!-- .attributes -->
-                            <ul class="attributes">
-                              <li class="first">
-                                <h5>Master of Engineering <span class="duration"><i class="fa fa-calendar color"></i> 2011 - 2013</span></h5>
-                                <h6><span class="fa fa-book"></span> Name of University</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
-                              </li>
-                              <li>
-                                <h5>Bachelor of Engineering <span class="duration"><i class="fa fa-calendar color"></i> 2010 - 2011</span></h5>
-                                <h6><span class="fa fa-book"></span> Name of University</h6>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
-                              </li>
-                            </ul>
-                            <!-- /.attributes -->
-                            <br>
-
-
-                            <!-- .title_content -->
                             <div class="title_content">
                               <div class="text_content">Awards</div>
                               <div class="clear"></div>
@@ -711,55 +639,105 @@
                             </ul>
                             <!-- /.attributes -->
                             <br>
+                            <!-- .title_content -->
+                            <div class="title_content" style="float: none;">
+                              <div class="text_content">My Resume</div>
+                              <div class="clear"></div>
+                            </div>
+                            <!-- /.title_content -->
 
+                            <!-- .download_resume -->
+                            <a class="download" style="margin:0;float: left;" href="/resume">
+                              <span data-hover="Descargar cv"><i class="glyphicon glyphicon-download-alt"></i> Descargar cv</span>
+                            </a>
                           </div>
-                          <!-- /.resume-left -->
-                        </div>
-
-                        <div style="clear: both"></div>
+                          <!-- /.resume-right -->
 
 
-                        <!-- client reference -->
-                        <div class="row">
-                          <div class="col-md-12">
 
-                            <div class="reference clearfix">
+                          <!-- .resume-left -->
+                          <div class="col-md-6 resume-left">
+                            <!-- .title_content -->
+                            <div class="title_content" style="margin-bottom:5px">
+                              <div class="text_content">Experiencia</div>
+                              <div class="clear"></div>
+                            </div>
+                            <!-- /.title_content -->
+
+                            <!-- .attributes -->
+                            <ul class="attributes">
+                              <li class="first">
+                                <h5>StartUp <span class="duration"><i class="fa fa-calendar color"></i> Mayo 2017 - Presente</span></h5>
+                                <h6><span class="fa fa-briefcase"></span> InfoScan</h6>
+                                <p>Emprendimiento orientado a mejorar la experiencia en sistemas de urgencia en servicios públicos de salud.</p>
+                                <p>Actualmente, finalistas del concurso "El semillero" de Pre-incubadora OpenLab de la Universidad de Chile y en segunda etapa de Jump Chile.</p>
+                              </li>
+                              <li>
+                                <h5>Proyecto Fondecyt <span class="duration"><i class="fa fa-calendar color"></i> Marzo 2017 - Agosto 2017</span></h5>
+                                <h6><span class="fa fa-briefcase"></span> “Analysis, Design, and Implementation of Nyquist Pulses in OFDM Next Generation Wireless Communication Systems”</h6>
+                                <p>Asistente de Investigación, encargado de implementar la nueva familia de pulsos en radios definidas
+                                  por software con el fin de realizar pruebas experimentales. Proyecto a cargo del profesor Cesar Augusto Azurdia Meza</p>
+                                </li>
+                                <li>
+                                  <h5>Profesor ayudante <span class="duration"><i class="fa fa-calendar color"></i> Marzo 2016 - Julio 2017</span></h5>
+                                  <h6><span class="fa fa-briefcase"></span> Facultad de Ciencias Físicas y Matemáticas de la Universidad de Chile</h6>
+                                  <p> Responsable de dirigir actividades de laboratorio y de evaluar informes de actividades en los cursos de “Laboratorio de Tecnologías de Información y Comunicaciones”; “Principios de Comunicaciones”; “Electromagnetismo Aplicado” y “Circuitos Analógicos”.</p>
+                                  <p>Responsable de realizar la toma de pruebas y su posterior corrección en los mismos cursos.</p>
+                                </li>
+                                <li>
+                                  <h5>Proyecto Social <span class="duration"><i class="fa fa-calendar color"></i> Junio 2016 - Septiembre 2016</span></h5>
+                                  <h6><span class="fa fa-briefcase"></span> “Community Mesh-networking for Ukamau's Social Movement”</h6>
+                                  <p>Participación en la implementación de red local inalámbrica en comunidad Ukamau con el fin de permitir comunicación a gente de escasos recursos sin conexión a Internet. </p>
+                                  <p>Segundo lugar obtenido en concurso www.internetsociety.org 2016 </p>
+                                </li>
+                                <li>
+                                  <h5>Practica Profesional <span class="duration"><i class="fa fa-calendar color"></i> Enero 2016 - Febrero 2016</span></h5>
+                                  <h6><span class="fa fa-briefcase"></span> Ingeniero de proyectos, Entel</h6>
+                                  <p>Encargado de gestionar proyectos de telecomunicaciones, en donde los principales clientes son empresas y corporaciones.</p>
+                                  <p> Activa participación en la toma de decisiones de proyectos.</p>
+                                </li>
+
+                              </ul>
+                              <!-- /.attributes -->
+                              <br>
 
                               <!-- .title_content -->
-                              <div class="title_content" style="margin-bottom:5px">
-                                <div class="text_content">Client reference</div>
+                              <div class="title_content">
+                                <div class="text_content">Educación</div>
                                 <div class="clear"></div>
                               </div>
                               <!-- /.title_content -->
 
-
-                              <ul>
-                                <li class="clearfix">
-                                  <img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
-                                  <p>“Many desktop publishing packages and web page editors now use Lorem Ipsum as their default will model text, and a search for 'lorem ipsum' hope is uncover many web sites still”</p>
-                                  <span>John Doe, UX Designer</span>
+                              <!-- .attributes -->
+                              <ul class="attributes">
+                                <li class="first">
+                                  <h5>Master of Engineering <span class="duration"><i class="fa fa-calendar color"></i> 2011 - 2013</span></h5>
+                                  <h6><span class="fa fa-book"></span> Name of University</h6>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
                                 </li>
-                                <li class="clearfix">
-                                  <img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
-                                  <p>“very nice colleague she always helped me out if i didnt know something editors now use Lorem Ipsum as their default”</p>
-                                  <span>Leia Calvi, UX Designer</span>
-                                </li>
-                                <li class="clearfix">
-                                  <img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
-                                  <p>“old colleague and now close friend, she is really sweet and helpfull packages and web page editors now use Lorem Ipsum as their default will model text”</p>
-                                  <span>Maria Callas, UX Designer</span>
+                                <li>
+                                  <h5>Bachelor of Engineering <span class="duration"><i class="fa fa-calendar color"></i> 2010 - 2011</span></h5>
+                                  <h6><span class="fa fa-book"></span> Name of University</h6>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscingVivamus sit amet ligula non lectus cursus egestas. Cras erat lorem, fringilla quis sagittis in, sagittis inNam leo tortor Nam leo tortor Vivamus.</p>
                                 </li>
                               </ul>
+                              <!-- /.attributes -->
+                              <br>
+
+
+                              <!-- .title_content -->
+
+
                             </div>
+                            <!-- /.resume-left -->
                           </div>
 
-
-
-
                           <div style="clear: both"></div>
-                        </div>
 
-                      </div>
+
+
+
+                        </div>
                       <!-- End .resume -->
 
                       <!-- .portfolio -->
@@ -2008,18 +1986,11 @@
                                   <!-- .contact -->
                                   <div id="contact" class="content_2">
 
-                                    <h1 class="h-bloc">Contact - Contact Me</h1>
-
-
+                                    <h1 class="h-bloc">Contacto</h1>
                                     <div class="row">
-
-                                      <div class="col-lg-12">
-                                        <div id="map"></div>
-                                      </div>
-
                                       <div class="col-lg-12">
                                         <div class="row" id="contact-user">
-                                          <div class="col-md-5">
+                                          <div class="col-md-6">
                                             <div class="contact-info">
                                               <!--<h3 class="main-heading"><span>Contact info</span></h3>-->
 
@@ -2029,13 +2000,10 @@
                                               </div>
 
                                               <ul>
-                                                <li><span class="span-info"><i class="glyphicon glyphicon-map-marker"></i> Adress:</span> San Francisco , CA.<br /><br /></li>
-                                                <li><span class="span-info"><i class="glyphicon glyphicon-envelope"></i> Email:</span> brown.smith@gmail.com</li>
-                                                <li><span class="span-info"><i class="glyphicon glyphicon-phone"></i> Phone:</span> +123 456 789 111</li>
-                                                <li><span class="span-info"><i class="glyphicon glyphicon-globe"></i> Website:</span> www.brown-smith.com</li>
-                                                <li><span class="span-info"><i class="glyphicon glyphicon-comment"></i> Skype:</span> brown-smith-skype</li>
-                                                <li><span class="span-info"><i class="glyphicon glyphicon-thumbs-up"></i> G. Drive:</span> brown-s-gm@gmail.com</li>
-                                                <li><span class="span-info"><i class="glyphicon glyphicon-unchecked"></i> Skydrive:</span> brown-s-sk@hotmail.com</li>
+                                                <li><span class="span-info"><i class="glyphicon glyphicon-map-marker"></i> Dirección:</span> Santiago , Chile.<br /><br /></li>
+                                                <li><span class="span-info"><i class="glyphicon glyphicon-envelope"></i> Email:</span> felipe.bahamonde.m@ug.uchile.cl</li>
+                                                <li><span class="span-info"><i class="glyphicon glyphicon-phone"></i> Whatsapp:</span> +569 82933488</li>
+                                                <li><span class="span-info"><i class="glyphicon glyphicon-globe"></i> Website:</span> fbahamonde.pythonanywhere.com</li>
                                               </ul>
                                             </div>
                                             <!-- /Contact Info -->
@@ -2063,7 +2031,7 @@
 
                                           </div>
 
-                                          <div class="col-md-7">
+                                          <div class="col-md-6">
                                             <!-- Contact Form -->
                                             <div class="title_content" style="float: none;">
                                               <div class="text_content">Let's keep in touch</div>
@@ -2071,29 +2039,29 @@
                                             </div>
 
 
-                                              <div id="contact-status"></div>
-                                              <form name="sentMessage" id="contactForm" novalidate>
-                                                <div class="row">
-                                                  <div class="col-md-6">
-                                                    <div class="form-group">
-                                                      <input type="text" id="name" class="form-control" placeholder="Nombre" required="required">
-                                                      <p class="help-block text-danger"></p>
-                                                    </div>
-                                                  </div>
-                                                  <div class="col-md-6">
-                                                    <div class="form-group">
-                                                      <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-                                                      <p class="help-block text-danger"></p>
-                                                    </div>
+                                            <div id="contact-status"></div>
+                                            <form name="sentMessage" id="contactForm" novalidate>
+                                              <div class="row">
+                                                <div class="col-md-6">
+                                                  <div class="form-group">
+                                                    <input type="text" id="name" class="form-control" placeholder="Nombre" required="required">
+                                                    <p class="help-block text-danger"></p>
                                                   </div>
                                                 </div>
-                                                <div class="form-group">
-                                                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
-                                                  <p class="help-block text-danger"></p>
+                                                <div class="col-md-6">
+                                                  <div class="form-group">
+                                                    <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                                                    <p class="help-block text-danger"></p>
+                                                  </div>
                                                 </div>
-                                                <div id="success"></div>
-                                                <button name ="submit" type="submit" class="btn btn-default">Enviar mensaje</button>
-                                              </form>
+                                              </div>
+                                              <div class="form-group">
+                                                <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required></textarea>
+                                                <p class="help-block text-danger"></p>
+                                              </div>
+                                              <div id="success"></div>
+                                              <button name ="submit" type="submit" class="btn btn-default">Enviar mensaje</button>
+                                            </form>
 
                                             <!-- /Contact Form -->
                                           </div>
@@ -2131,24 +2099,6 @@
                   <div id="custumize-style">
                     <h2>Style Selector<a href="#" class="switcher"><i class="fa fa-cogs icon-switcher"></i></a></h2>
                     <div>
-                      <h3>Theme Color</h3>
-                      <ul class="colors-style" id="color1">
-
-                        <li><a href="#" class="gray"></a></li>
-                        <li><a href="#" class="green"></a></li>
-                        <li><a href="#" class="blue"></a></li>
-                        <li><a href="#" class="red"></a></li>
-                        <li><a href="#" class="yellow"></a></li>
-
-                        <li><a href="#" class="DarkBlue"></a></li>
-                        <li><a href="#" class="orange"></a></li>
-                        <li><a href="#" class="rose"></a></li>
-                        <li><a href="#" class="lightseagreen"></a></li>
-                        <li><a href="#" class="darkolivegreen"></a></li>
-
-                      </ul>
-                    </div>
-                    <div>
 
 
 
@@ -2181,7 +2131,7 @@
                         <div class="clean-check">
 
                           <input type="radio" id="s1" name="layout" value="bg_color" checked="checked" />
-                          <label for="s1"><span></span>Color</label>
+                          <label for="s1"><span></span>Pattern</label>
 
                           <input type="radio" id="s2" name="layout" value="bg_slider" />
                           <label for="s2"><span></span>Slider</label>
@@ -2202,8 +2152,6 @@
                         <li><a href="#" class="bg5"></a></li>
                       </ul>
                     </div>
-
-                    <div id="button-reset"><a href="#" class="button color blue boxed">Reset</a></div>
                   </div>
                   <!-- End Switcher -->
 
@@ -2245,19 +2193,9 @@
                   <!-- Credits: http://www.no-margin-for-errors.com/ -->
                   <script type="text/javascript" src="{% static "js/jquery.prettyPhoto.js" %}"></script>
 
-                  <!-- Js | gmaps -->
-                  <!-- Credits: http://maps.google.com/maps/api/js?sensor=true-->
-                  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-                  <script type="text/javascript" src="{% static "js/gmaps.min.js" %}"></script>
-
                   <!-- Js | Js -->
                   <!-- Credits: http://themeforest.net/user/FlexyCodes -->
                   <script type="text/javascript" src="{% static "js/main.js" %}"></script>
 
-
-
-                  <!--[if lt IE 9]>
-                  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js" %}"></script>
-                  <![endif]-->
                 </body>
                 </html>
